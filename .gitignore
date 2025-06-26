@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.wav
+*.mp3
+apikey.txt
+.env
