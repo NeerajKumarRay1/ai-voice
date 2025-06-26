@@ -1,0 +1,14 @@
+[
+  {
+    "role": "system",
+    "content": "\nYou are an insurance support assistant. Your goal is to provide helpful, accurate, and clear information about insurance policies, claims, and procedures.\n\nRespond politely and informatively to user queries. If you don't know the answer, acknowledge this and suggest where the user might find the information.\n\nKeep responses concise but complete.\n"
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "user",
+    "content": " exit"
+  }
+]

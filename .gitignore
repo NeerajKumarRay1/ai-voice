@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Environment variables and secrets
+.env
+*.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Generated files
+tts_cache/
+faiss_index/
+knowledge/
+
+# Config with potential secrets
+config.json
+
+# OS specific
+.DS_Store
+Thumbs.db

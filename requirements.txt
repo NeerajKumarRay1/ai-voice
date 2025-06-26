@@ -1,0 +1,35 @@
+# Core dependencies
+numpy>=1.20.0
+python-dotenv>=0.19.0
+requests==2.32.4
+
+# Speech-to-Text
+openai-whisper>=20230314
+sounddevice>=0.4.4
+scipy>=1.7.0
+
+# Text-to-Speech
+elevenlabs>=0.2.24
+pyttsx3>=2.90
+
+# LLM and Chat
+openai>=1.0.0
+langchain>=0.0.267
+langchain-openai>=0.0.2
+
+# Vector Database
+faiss-cpu>=1.7.0
+
+# Web Interface options
+flask>=2.0.0
+gradio>=3.50.0
+
+# Utilities
+python-dateutil>=2.8.2
+tqdm>=4.62.0
+transformers==4.52.4
+tokenizers==0.21.2
+safetensors==0.5.3
+accelerate==0.31.0
+psutil==5.9.8
+requests==2.32.4

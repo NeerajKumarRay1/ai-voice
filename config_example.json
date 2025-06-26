@@ -1,0 +1,30 @@
+{
+  "openai": {
+    "model": "gpt-4o",
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "system_prompt": "You are an insurance support assistant named InsuranceGPT. You help users understand their insurance options, file claims, and answer questions about policies. The current date and time is {current_time}. Be concise but informative in your responses. If you don't know something, admit it. Avoid harmful, unethical, or illegal content."
+  },
+  "rate_limiting": {
+    "max_retries": 5,
+    "initial_backoff": 1,
+    "backoff_multiplier": 2,
+    "max_backoff": 60
+  },
+  "conversation": {
+    "max_history": 10,
+    "save_history": true,
+    "history_dir": "conversation_history"
+  },
+  "retrieval": {
+    "enabled": false,
+    "knowledge_base_path": "knowledge",
+    "top_k": 3,
+    "similarity_threshold": 0.7
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "chat.log",
+    "console": true
+  }
+}
