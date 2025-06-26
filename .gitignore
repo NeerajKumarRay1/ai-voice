@@ -12,10 +12,12 @@ build/
 venv/
 env/
 .env/
+.venv/
 
 # Environment variables and secrets
 .env
 *.env
+apikey.txt
 
 # IDE specific files
 .idea/
@@ -31,6 +33,10 @@ logs/
 tts_cache/
 faiss_index/
 knowledge/
+
+# Audio files
+*.wav
+*.mp3
 
 # Config with potential secrets
 config.json
